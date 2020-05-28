@@ -1,15 +1,17 @@
 import React from 'react';
 import Header from './Components/Header';
-import Landing from './Components/Landing';
+import routes from './router'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Landing />
+      {routes}
+
+      {/* <Landing /> */}
     </div>
-  );
+  ); 
 }
 
 export default App;
